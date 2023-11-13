@@ -185,7 +185,7 @@ function AdminDesign() {
               <td>{design.companyId &&design.companyId.name}</td>
               <td>
               {design && design.images.map((image, index) => (
-              <img src={`http://localhost:4000/${image}`} alt={`Design ${index}`} key={index} width="200px"/>
+              <img src={`https://spaceloombackend.onrender.com/${image}`} alt={`Design ${index}`} key={index} width="200px"/>
 ))}
 
 
